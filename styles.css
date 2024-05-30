@@ -1,0 +1,126 @@
+/* Estilos para el archivo index.html */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+header {
+    background-color: #000;
+    color: #ffd700; /* Color amarillo */
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+nav {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+nav a {
+    color: #00ff00; /* Color verde */
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #ffd700; /* Cambia a amarillo al pasar el mouse */
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #000;
+    color: #ffd700; /* Color amarillo */
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.5s;
+}
+
+/* Estilos para los botones de redes sociales */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icons li:last-child {
+    margin-right: 0;
+}
+.social-icons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s;
+}
+
+/* Estilos específicos para cada ícono */
+.whatsapp-icon {
+    background-image: url('imagenes/whastapp.png'); /* Ruta de tu ícono de WhatsApp */
+}
+.instagram-icon {
+    background-image: url('imagenes/instagram.png'); /* Ruta de tu ícono de Instagram */
+}
+.tiktok-icon {
+    background-image: url('imagenes/tikto.png'); /* Ruta de tu ícono de TikTok */
+}
+
+/* Efectos de hover para los íconos */
+.social-icons li a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3); /* Sombra verde */
+    background-color: #00ff00; /* Cambia el color de fondo al pasar el mouse a verde */
+}
+
+/* Estilos para el catálogo */
+#catalogo {
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+.catalogo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.producto {
+    background-color: #222;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.producto h3 {
+    color: #ffd700; /* Color amarillo */
+}
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Sombra verde */
+}
+
+
